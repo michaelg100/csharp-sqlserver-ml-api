@@ -1,5 +1,5 @@
 CREATE TABLE main (
-    ID int,
+    ID int IDENTITY(1,1) PRIMARY KEY,
     Title varchar(255),
     Book varchar(255) 
 );
