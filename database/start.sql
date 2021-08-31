@@ -1,10 +1,10 @@
-CREATE TABLE main (
+CREATE TABLE books (
     ID int IDENTITY(1,1) PRIMARY KEY,
     Title varchar(255),
     Book varchar(255) 
 );
 
-INSERT INTO main (Title, Book )
+INSERT INTO books (Title, Book )
 VALUES('Sorcer Stone', 'Harry Potter');
 
-SELECT * FROM main;
+SELECT * FROM books;
