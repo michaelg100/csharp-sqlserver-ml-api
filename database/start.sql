@@ -4,7 +4,7 @@ CREATE TABLE main (
     Book varchar(255) 
 );
 
-INSERT INTO main (ID, Title, Book )
-VALUES(1, 'Sorcer Stone', 'Harry Potter');
+INSERT INTO main (Title, Book )
+VALUES('Sorcer Stone', 'Harry Potter');
 
 SELECT * FROM main;
