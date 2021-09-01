@@ -1,0 +1,11 @@
+##Predict Sentiment##
+curl -XPOST -H "Content-type: application/json" -d '{"SentimentText":"i had the worst day" }' 'localhost:5000/predict'
+
+#Result:
+Negative
+
+##Post to DB##
+curl -XPOST -H "Content-type: application/json" -d '{"title":"example title here", "author":"Steve"}' 'localhost:5000/book/add'
+
+#Result:
+Success
